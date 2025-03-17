@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="PY-243.25659.43">
+    <data-source name="@www.googleapis.com/bigquery/v2" uuid="d1d88313-7b05-44f3-a94d-bbf4a7d7edd7">
+      <database-info product="Google BigQuery" version="2.0" jdbc-version="4.2" driver-name="SimbaJDBCDriverforGoogleBigQuery" driver-version="01.06.01.1002" dbms="BIGQUERY" exact-version="1.6.1.1002" exact-driver-version="1.6">
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>BigQuery.ServiceAccount</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="insider-eliel">
+              <node kind="schema" negative="1" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

@@ -11,7 +11,7 @@ sources:
       - name: 3_briefings
       - name: 4_aprovação de conteúdos
       - name: 5_conteudos
-      - name: 7_edereços e tamanhos
+      - name: 7_endereços e tamanhos
       - name: 8_envios do site
       - name: 9_envios do escritório
       - name: 11_historico comercial

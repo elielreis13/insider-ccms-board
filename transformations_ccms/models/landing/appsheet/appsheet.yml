@@ -1,0 +1,19 @@
+version: 1
+
+sources:
+  - name: appsheet
+    database: insider-eliel
+    schema: landing
+    tables:
+      - name: 0_cadastro de creators
+      - name: 1_cupons
+      - name: 2_links
+      - name: 3_briefings
+      - name: 4_aprovação de conteúdos
+      - name: 5_conteudos
+      - name: 7_endereços e tamanhos
+      - name: 8_envios do site
+      - name: 9_envios do escritório
+      - name: 11_historico comercial
+      - name: 12_custo mensal
+      - name: conteudos_recentes

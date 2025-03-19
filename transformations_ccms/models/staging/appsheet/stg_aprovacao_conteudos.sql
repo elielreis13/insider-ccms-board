@@ -1,0 +1,51 @@
+{{
+    config(
+        materialized = 'table',
+        schema = "staging"
+    )
+}}
+
+SELECT
+    CAST(RowNumber AS INT) AS RowNumber,
+    CAST(STATUS AS STRING) AS STATUS,
+    CAST(Account_Manager AS STRING) AS Account_Manager,
+    CAST(Content_Creator AS STRING) AS Content_Creator,
+    CAST(Datahora_do_envio AS STRING) AS Datahora_do_envio,
+    CAST(Modelo_de_gerenciamento AS STRING) AS Modelo_de_gerenciamento,
+    CAST(Tier AS STRING) AS Tier,
+    CAST(Contedo_1_Para_qual_dia_o_contedo_que_ser_enviado_foi_agendado AS STRING) AS Contedo_1_Para_qual_dia_o_contedo_que_ser_enviado_foi_agendado,
+    CAST(Contedo_1_Formato_do_contedo_enviado AS STRING) AS Contedo_1_Formato_do_contedo_enviado,
+    CAST(Contedo_1_Envio_do_contedo AS STRING) AS Contedo_1_Envio_do_contedo,
+    CAST(Contedo_1_Legenda_do_contedo AS STRING) AS Contedo_1_Legenda_do_contedo,
+    CAST(Contedo_1_Tem_alguma_observao_sobre_o_contedo AS STRING) AS Contedo_1_Tem_alguma_observao_sobre_o_contedo,
+    CAST(Contedo_2_Para_qual_dia_o_contedo_que_ser_enviado_foi_agendado AS STRING) AS Contedo_2_Para_qual_dia_o_contedo_que_ser_enviado_foi_agendado,
+    CAST(Contedo_2_Formato_do_contedo_enviado AS STRING) AS Contedo_2_Formato_do_contedo_enviado,
+    CAST(Contedo_2_Envio_do_contedo AS STRING) AS Contedo_2_Envio_do_contedo,
+    CAST(Contedo_2_Legenda_do_contedo AS STRING) AS Contedo_2_Legenda_do_contedo,
+    CAST(Contedo_2_Tem_alguma_observao_sobre_o_contedo AS STRING) AS Contedo_2_Tem_alguma_observao_sobre_o_contedo,
+    CAST(O_contedo_utiliza_tcnicas_de_narrativa_para_criar_uma_conexo_emocional AS STRING) AS O_contedo_utiliza_tcnicas_de_narrativa_para_criar_uma_conexo_emocional,
+    CAST(O_vdeo_captura_a_ateno_do_pblico_nos_primeiros_segundos AS STRING) AS O_vdeo_captura_a_ateno_do_pblico_nos_primeiros_segundos,
+    CAST(H_uma_recompensa_clara_e_atraente_ao_final_do_vdeo AS STRING) AS H_uma_recompensa_clara_e_atraente_ao_final_do_vdeo,
+    CAST(O_contedo__divertido_e_envolvente AS STRING) AS O_contedo__divertido_e_envolvente,
+    CAST(O_insert_fornece_informaes_valiosas_e_relevantes AS STRING) AS O_insert_fornece_informaes_valiosas_e_relevantes,
+    CAST(A_publicidade_est_inserida_de_forma_natural_e_fluida AS STRING) AS A_publicidade_est_inserida_de_forma_natural_e_fluida,
+    CAST(O_vdeo_tem_elementos_que_incentivam_o_compartilhamento AS STRING) AS O_vdeo_tem_elementos_que_incentivam_o_compartilhamento,
+    CAST(A_resoluo_do_vdeo__adequada_considerando_insert__vdeo_diferena_na_edio AS STRING) AS A_resoluo_do_vdeo__adequada_considerando_insert__vdeo_diferena_na_edio,
+    CAST(O_udio__claro_e_de_alta_qualidade AS STRING) AS O_udio__claro_e_de_alta_qualidade,
+    CAST(O_vdeo_segue_uma_linha_visual_consistente_incluindo_uso_de_cores_e_estilo_no_tem_diferenas_visuais_claras_entre_insert_e_o_restante_do_contedo AS STRING) AS O_vdeo_segue_uma_linha_visual_consistente_incluindo_uso_de_cores_e_estilo_no_tem_diferenas_visuais_claras_entre_insert_e_o_restante_do_contedo,
+    CAST(O_contedo_parece_genuno_e_autntico AS STRING) AS O_contedo_parece_genuno_e_autntico,
+    CAST(A_mensagem_principal__clara_e_fcil_de_entender AS STRING) AS A_mensagem_principal__clara_e_fcil_de_entender,
+    CAST(O_vdeo_utiliza_elementos_visuais_para_manter_o_pblico_atento_cortes_mudanas_de_cenrio_letreiros AS STRING) AS O_vdeo_utiliza_elementos_visuais_para_manter_o_pblico_atento_cortes_mudanas_de_cenrio_letreiros,
+    CAST(O_contedo__excessivamente_publicitrio AS STRING) AS O_contedo__excessivamente_publicitrio,
+    CAST(H_elementos_que_parecem_falsos_ou_forados AS STRING) AS H_elementos_que_parecem_falsos_ou_forados,
+    CAST(O_contedo_pode_soar_repetitivo_e_sem_inovao AS STRING) AS O_contedo_pode_soar_repetitivo_e_sem_inovao,
+    CAST(Relevante_para_ads AS STRING) AS Relevante_para_ads,
+    CAST(Contedo_campeo AS STRING) AS Contedo_campeo,
+    CAST(Comentrios_internos AS STRING) AS Comentrios_internos,
+    CAST(Comentrios_do_AM AS STRING) AS Comentrios_do_AM,
+    CAST(Modo_de_envio_de_feedback AS STRING) AS Modo_de_envio_de_feedback,
+    CAST(Email_de_resposta AS STRING) AS Email_de_resposta,
+    CAST(Data_de_aprovao AS STRING) AS Data_de_aprovao,
+    CAST(Flag_Email_Enviado AS STRING) AS Flag_Email_Enviado,
+
+FROM {{ source("appsheet", "4_aprovação de conteúdos") }}

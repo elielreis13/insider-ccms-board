@@ -42,5 +42,6 @@ SELECT
     CAST(Foi_acordado_na_negociao_algum_direcionamento_para_envio_das_peas AS STRING) AS Foi_acordado_na_negociao_algum_direcionamento_para_envio_das_peas,
     CAST(Foi_acordado_na_negociao_algum_direcionamento_para_envio_das_peas34 AS STRING) AS Foi_acordado_na_negociao_algum_direcionamento_para_envio_das_peas34,
     CAST(Email_para_cadastro_no_Portal_de_Pagamentos AS STRING) AS Email_para_cadastro_no_Portal_de_Pagamentos,
+    CONCAT(Carimbo_de_datahora,": ", Nome_do_canal_ou_perfil,": ", Nome_do_host_do_canalperfil) AS _ComputedKey
 
 FROM {{ source("appsheet", "7_endereços e tamanhos") }}

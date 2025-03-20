@@ -30,6 +30,7 @@ SELECT
     CAST(Montante_a_ser_ajustado AS STRING) AS Montante_a_ser_ajustado,
     CAST(Contedo AS STRING) AS Contedo,
     CAST(Motivo AS STRING) AS Motivo,
-    CAST(hubspotid AS STRING) AS hubspotid
+    CAST(hubspotid AS STRING) AS hubspotid,
+    CONCAT(Row_ID, ": ", Datahora) AS _ComputedKey
 
 FROM {{ source("appsheet", "11_historico comercial") }}

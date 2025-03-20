@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a5e48ba-0203-407e-a215-4530ab0f605c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SQL File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uSP0yoeqAG0artBEBCm7QKe8e5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
+    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
+    "dbt.Run dbt build.executor": "Run",
+    "dbt.run: staging_briefings.sql.executor": "Run",
+    "dbt.run: stg_custo_mensal.sql.executor": "Run",
+    "dbt.show: creators_content.sql.executor": "Run",
+    "dbt.show: staging_briefings.sql.executor": "Run",
+    "dbt.show: unf_cupons.sql.executor": "Run",
+    "dbt.show: unf_links.sql.executor": "Run",
+    "dbt.test: unf_links.sql.executor": "Run",
+    "git-widget-placeholder": "creators-dataset-build",
+    "last_opened_file_path": "/Users/insider/Documents/InsiderProjects/dbtCCMS/transformations_ccms/models/unfolded",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "bigquery"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "BigQuery",
+      "Redshift"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transformations_ccms/models/unfolded" />
+    </key>
+  </component>
+  <component name="RunManager" selected="dbt.show: creators_content.sql">
+    <configuration name="Run dbt build" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="build" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt debug" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="debug" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt list" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="list" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="run" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt test" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="test" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run: staging_briefings.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="staging_briefings.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="run" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: creators_content.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="creators_content.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: staging_briefings.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="staging_briefings.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: unf_cupons.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="unf_cupons.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show: unf_links.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="unf_links.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="show" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: unf_links.sql" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtAdditionalArguments">
+        <list>
+          <option value="--select" />
+          <option value="unf_links.sql" />
+        </list>
+      </option>
+      <option name="dbtCommand" value="test" />
+      <module name="dbtCCMS" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a5e48ba-0203-407e-a215-4530ab0f605c" name="Changes" comment="" />
+      <created>1742238782741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742238782741</updated>
+      <workItem from="1742238783839" duration="4081000" />
+      <workItem from="1742247465208" duration="1547000" />
+      <workItem from="1742249023558" duration="4204000" />
+      <workItem from="1742253241408" duration="734000" />
+      <workItem from="1742253987965" duration="13498000" />
+      <workItem from="1742328990649" duration="224000" />
+      <workItem from="1742329220819" duration="38000" />
+      <workItem from="1742329264922" duration="38000" />
+      <workItem from="1742329308937" duration="14938000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

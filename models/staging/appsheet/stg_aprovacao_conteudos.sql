@@ -7,6 +7,7 @@
 
 SELECT
     CAST(RowNumber AS INT) AS RowNumber,
+    CAST(Row_ID AS STRING) AS Row_ID,
     CAST(STATUS AS STRING) AS STATUS,
     CAST(Account_Manager AS STRING) AS Account_Manager,
     CAST(Content_Creator AS STRING) AS Content_Creator,
